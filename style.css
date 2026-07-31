@@ -1,1 +1,26 @@
+body {
+background-color: black;
+color: blue;
+font-family: Arial, sans-serif;
+}
+ 
+header {
+   background-color: brown;
+   color: aliceblue;
+   text-align: center;
+   padding: 30px;
+}
 
+h1  {
+     font-size: 30px;
+
+}
+
+h2  {
+    color: blueviolet;
+}
+
+p {
+   font-size: 18px;
+   line-height:  1.6;
+}
