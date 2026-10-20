@@ -1,3 +1,13 @@
+:root{
+--cor-fundo:#f4f1ea;
+--cor-texto:#222222;
+--cor-pricinpal:#b21f35;
+--cor-secundaria:#f4flea;
+--cor-hover:#ff0026;
+--cor-surperficie:#ffffff;
+--cor-card:#f3d9fa;
+--cor-legenda:#f51230;
+}
 body {
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
