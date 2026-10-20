@@ -11,15 +11,15 @@
 --cor-rodape:#222222;
 }
 body {
-      background-color:var(--cor-pricinpal);
-    color:var(--cor-clara);
+      background-color:var(--cor-fundo);
+    color:var(--cor-texto);
     margin: 0;
     color: #222;
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: var(--cor-pricinpal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -33,7 +33,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color:var(--cor-clara);
     background-color: white;
     text-decoration: none;
     padding: 10px;
@@ -51,7 +51,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color:var(--cor-surperficie);
     padding: 20px;
     margin-top: 20px;
     border: 1px solid black;
@@ -59,7 +59,7 @@ section {
 }
 
 h2 {
-    color: black;
+    color: var(--cor-pricinpal);
 }
 
 p {
@@ -80,14 +80,14 @@ figcaption {
     text-align: center;
     margin-top: 8px;
     font-size: 14px;
-    color: #555;
+    color: var(--cor-legenda);
 }
 
 .card {
-    background-color: #e0e0e0;
+    background-color:var(--cor-card);
     padding: 15px;
     margin-top: 15px;
-    border-left: 5px solid black;
+    border-left: 5px solid var(--cor-pricinpal);
 }
 
 footer {
@@ -96,4 +96,29 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+/* BOTÃO */
+button {
+    background-color:var(--cor-pricinpal);
+    color:var(--cor-clara);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:var(--cor-hover)
+}
+
+/* BOTÃO CURTIR */
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.curtir.ativo {
+    background-color: #b21f35;
 }
