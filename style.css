@@ -7,10 +7,12 @@
 --cor-surperficie:#ffffff;
 --cor-card:#f3d9fa;
 --cor-legenda:#f51230;
+--cor-clara:#ffffff;
+--cor-rodape:#222222;
 }
 body {
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
+      background-color:var(--cor-pricinpal);
+    color:var(--cor-clara);
     margin: 0;
     color: #222;
 }
